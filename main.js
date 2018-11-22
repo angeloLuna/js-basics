@@ -1,21 +1,20 @@
-const persona = {
-  nombre: "angelo",
-  apellido: "luna",
-  direccion: {
-    calle: "agustin melgar",
-    interior: "3",
-    exterior: "44"
-  }
-}
+// VALOR Y REFERENCIA
+// let persona = {
+//   nombre: 'angelo'
+// };
 
-const mostrar = ({nombre})=>{
-  console.log(nombre)
-}
+// let otro = persona
 
-mostrar(persona)
+// let otraPersona = {
+//   ...persona
+// }
 
-// equivalente
-// let nombre = persona.nombre
-let { nombre } = persona;
+// // Cambio por referencia
+// // otro.nombre = 'XD';
 
-console.log(nombre, "XD")
+// // Cambio por valor
+// otraPersona.nombre = '-_-'
+
+// console.log(otraPersona, persona)
+
+
