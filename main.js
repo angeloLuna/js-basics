@@ -110,4 +110,10 @@ const esAlta = ({ altura }) => altura > 1.8
 
 const personasAltas = personas.filter(esAlta);
 
-console.log(personasAltas)
+const aCms = personas => ({
+    ...personas,
+    altura: personas.altura * 100
+})
+const personasCm = personas.map(aCms)
+
+console.log(personasCm)
